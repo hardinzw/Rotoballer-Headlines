@@ -1,0 +1,130 @@
+.jumbotron {
+	background-color: rgb(36, 9, 190);
+	color: white
+}
+
+a#home, a.home, a#saved, a.saved, a.navbar-item{
+	color: rgb(36, 9, 190);
+}
+
+.navbar-item {
+	float: center;
+}
+
+.dropdown {
+	display: none;
+}
+
+section.section {
+	padding-bottom: 0;
+	min-height: 100%;
+	color: rgb(36, 9, 190)
+}
+
+section.section.container h1 {
+	padding-bottom: 0;
+	min-height: 100%;
+	color: rgb(36, 9, 190)
+}
+
+div.container {
+	min-height: 100%;
+}
+
+div.container h2 {
+	color: rgb(36, 9, 190)
+}
+
+div#scrape-results, div#saved-results {
+	min-height: 100%;
+	margin-bottom: 200px;
+}
+
+.result-text {
+	float: left;
+	width: 80%;
+	padding-bottom: 20px;
+}
+
+.save-article {
+	float: right;
+}
+
+button.save-article {
+	color: white;
+	background-color: rgb(36, 9, 190)
+}
+
+button.save-article:hover {
+	color: white;
+}
+
+.result-div {
+ clear: both;
+}
+
+.saved-text {
+	float: left;
+	width: 70%;
+	padding-bottom: 30px;
+}
+
+.comments-button {
+	float: right;
+	margin-top: 25px;
+}
+
+#comments-list {
+	color: rgb(36, 9, 190)
+}
+
+button#save-comment {
+	color: white;
+	background-color: rgb(36, 9, 190)
+}
+
+
+.unsave-button {
+	float: right;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+
+.saved-div {
+ clear: both;
+}
+
+span.icon {
+	padding-right: 25px;
+	padding-left: 15px;
+}
+
+a.button {
+	color: white;
+	background-color: rgb(36, 9, 190)
+}
+
+a.button:hover {
+	color: white
+}
+
+button.comments-button {
+	color: white;
+	background-color: rgb(36, 9, 190)
+}
+
+button.comments-button:hover {
+	color: white;
+}
+
+button.unsave-button {
+	color: white;
+}
+
+button.unsave-button:hover {
+	color: white;
+	background-color: rgb(51, 37, 129)
+}
+
+
+/*Make media query at viewport width 851px for article buttons*/
