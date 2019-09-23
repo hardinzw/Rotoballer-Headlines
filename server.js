@@ -37,7 +37,7 @@ app.use("/public", express.static(__dirname + "/public"));
 app.use("/views/layouts", express.static(__dirname + "/views/layouts"));
 
 // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
-var MONGODB_URI = process.env.MONGODB_URI  || "mongodb://user:password1@ds161890.mlab.com:61890/heroku_xktbswkx";
+var MONGODB_URI = process.env.MONGODB_URI  || "mongodb://admin:admin1@ds127962.mlab.com:27962/heroku_v8bt56n8";
 // Set mongoose to leverage built in JavaScript ES6 Promises
 // Connect to the Mongo DB
 mongoose.Promise = Promise;

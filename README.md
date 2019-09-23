@@ -1,4 +1,4 @@
-# Informz
+# Rotoballer-Headlines
 ## Description:
 This app allows users to view Rotoballer News articles, save their favorites onto another page, and comment on their favorites. The app uses Node/Express for the server and routing, MongoDB/Mongoose for the database and models, Handlebars for the layout and views, & Cheerio/Request for scraping the data.
 
